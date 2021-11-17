@@ -1,0 +1,30 @@
+.container {
+  overflow: hidden;
+}
+
+.content {
+  display: flex;
+  transition: transform 0.3s ease;
+}
+
+.item {
+  flex-shrink: 0;
+  width: 80%;
+  margin: 0 10%;
+  background-color: #eee;
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem auto;
+}
+
+.nav button {
+  background-color: #ccc;
+  padding: 5px 10px;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+}
